@@ -1,0 +1,725 @@
+{
+    "accommodationLists":
+    [
+        {
+            "type":"hotel",
+            "region": "Auckland",
+            "slug": "goodview-hotel",
+            "name": "Goodview Hotel",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNights": 5,
+            "images": 
+            [
+                {
+                    "name": "Goodview Hotel Image One",
+                    "url": "../assets/hotel-image/hotel-one/ho1.jpg",
+                    "alt": "Goodview hotel image one"
+                },
+                {
+                    "name": "Goodview Hotel Image Two",
+                    "url": "../assets/hotel-image/hotel-one/ho2.jpg",
+                    "alt": "Goodview hotel image two"
+                },
+                {
+                    "name": "Goodview Hotel Image Three",
+                    "url": "../assets/hotel-image/hotel-one/ho3.jpg",
+                    "alt": "Goodview hotel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hotel",
+            "region": "Auckland",
+            "slug": "bianco-off-queen",
+            "name": "Bianco Off Queen",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNights": 5,
+            "images": 
+            [
+                {
+                    "name": "Bianco Off Queen Image One",
+                    "url": "../assets/hotel-image/hotel-two/ho1.jpg",
+                    "alt": "Bianco off queen image one"
+                },
+                {
+                    "name": "Bianco Off Queen Image Two",
+                    "url": "../assets/hotel-image/hotel-two/ho2.jpg",
+                    "alt": "Bianco off queen image two"
+                },
+                {
+                    "name": "Bianco Off Queen Image Three",
+                    "url": "../assets/hotel-image/hotel-two/ho3.jpg",
+                    "alt": "Bianco off queen image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hotel",
+            "region": "Auckland",
+            "slug": "amora-hotel",
+            "name": "Amora Hotel",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNights": 5,
+            "images": 
+            [
+                {
+                    "name": "Amora Hotel Image One",
+                    "url": "../assets/hotel-image/hotel-three/ho1.jpg",
+                    "alt": "Amora hotel image one"
+                },
+                {
+                    "name": "Amora Hotel Image Two",
+                    "url": "../assets/hotel-image/hotel-three/ho2.jpg",
+                    "alt": "Amora hotel image two"
+                },
+                {
+                    "name": "Amora Hotel Image Three",
+                    "url": "../assets/hotel-image/hotel-three/ho3.jpg",
+                    "alt": "Amora hotel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hotel",
+            "region": "Dunedin",
+            "slug": "waves-hotel",
+            "name": "Waves Hotel",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNights": 5,
+            "images": 
+            [
+                {
+                    "name": "Waves Hotel Image One",
+                    "url": "../assets/hotel-image/hotel-four/ho1.jpg",
+                    "alt": "Waves hotel image one"
+                },
+                {
+                    "name": "Waves Hotel Image Two",
+                    "url": "../assets/hotel-image/hotel-four/ho2.jpg",
+                    "alt": "Waves hotel image two"
+                },
+                {
+                    "name": "Waves Hotel Image Three",
+                    "url": "../assets/hotel-image/hotel-four/ho3.jpg",
+                    "alt": "Waves hotel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hotel",
+            "region": "Wellington",
+            "slug": "villa-topaz",
+            "name": "Villa Topaz",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNights": 5,
+            "images": 
+            [
+                {
+                    "name": "Villa Topaz Image One",
+                    "url": "../assets/hotel-image/hotel-five/ho1.jpg",
+                    "alt": "Villa topaz image one"
+                },
+                {
+                    "name": "Villa Topaz Image Two",
+                    "url": "../assets/hotel-image/hotel-five/ho2.jpg",
+                    "alt": "Villa topaz image two"
+                },
+                {
+                    "name": "Villa Topaz Image Three",
+                    "url": "../assets/hotel-image/hotel-five/ho3.jpg",
+                    "alt": "Villa topaz image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hotel",
+            "region": "Christchurch",
+            "slug": "villa-rosa",
+            "name": "Villa Rosa",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNights": 5,
+            "images": 
+            [
+                {
+                    "name": "Villa Rosa Image One",
+                    "url": "../assets/hotel-image/hotel-six/ho1.jpg",
+                    "alt": "Villa rosa image one"
+                },
+                {
+                    "name": "Villa Rosa Image Two",
+                    "url": "../assets/hotel-image/hotel-six/ho2.jpg",
+                    "alt": "Villa rosa image two"
+                },
+                {
+                    "name": "Villa Rosa Image Three",
+                    "url": "../assets/hotel-image/hotel-six/ho3.jpg",
+                    "alt": "Villa rosa image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hostel",
+            "region": "Auckland",
+            "slug": "new-haven-hostel",
+            "name": "New Haven Hostel",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "New Haven Hostel Image One",
+                    "url": "../assets/hostel-image/hostel-one/h1.jpg",
+                    "alt": "New haven hostel image one"
+                },
+                {
+                    "name": "New Haven Hostel Image Two",
+                    "url": "../assets/hostel-image/hostel-one/h2.jpg",
+                    "alt": "New haven hostel image two"
+                },
+                {
+                    "name": "New Haven Hostel Image Three",
+                    "url": "../assets/hostel-image/hostel-one/h3.jpg",
+                    "alt": "New haven hostel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hostel",
+            "region": "Auckland",
+            "slug": "aarangi-hostel",
+            "name": "Aarangi Hostel",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Aarangi Hostel Image One",
+                    "url": "../assets/hostel-image/hostel-two/h1.jpg",
+                    "alt": "Aarangi hostel image one"
+                },
+                {
+                    "name": "Aarangi Hostel Image Two",
+                    "url": "../assets/hostel-image/hostel-two/h2.jpg",
+                    "alt": "Aarangi hostel image two"
+                },
+                {
+                    "name": "Aarangi Hostel Image Three",
+                    "url": "../assets/hostel-image/hostel-two/h3.jpg",
+                    "alt": "Aarangi hostel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hostel",
+            "region": "Auckland",
+            "slug": "anzac-court-hostel",
+            "name": "Anzac Court Hostel",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Anzac Court Hostel Image One",
+                    "url": "../assets/hostel-image/hostel-three/h1.jpg",
+                    "alt": "Anzac court hostel image one"
+                },
+                {
+                    "name": "Anzac Court Hostel Image Two",
+                    "url": "../assets/hostel-image/hostel-three/h2.jpg",
+                    "alt": "Anzac court hostel image two"
+                },
+                {
+                    "name": "Anzac Court Hostel Image Three",
+                    "url": "../assets/hostel-image/hostel-three/h3.jpg",
+                    "alt": "Anzac court hostel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hostel",
+            "region": "Dunedin",
+            "slug": "abella-inn",
+            "name": "Abella Inn",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Abella Inn Image One",
+                    "url": "../assets/hostel-image/hostel-four/h1.jpg",
+                    "alt": "Abella inn image one"
+                },
+                {
+                    "name": "Abella Inn Image Two",
+                    "url": "../assets/hostel-image/hostel-four/h2.jpg",
+                    "alt": "Abella inn image two"
+                },
+                {
+                    "name": "Abella Inn Image Three",
+                    "url": "../assets/hostel-image/hostel-four/h3.jpg",
+                    "alt": "Abella inn image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hostel",
+            "region": "Wellington",
+            "slug": "golflands-hostel",
+            "name": "Golflands Hostel",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Golflands Hostel Image One",
+                    "url": "../assets/hostel-image/hostel-five/h1.jpg",
+                    "alt": "Golflands hostel image one"
+                },
+                {
+                    "name": "Golflands Hostel Image Two",
+                    "url": "../assets/hostel-image/hostel-five/h2.jpg",
+                    "alt": "Golflands hostel image two"
+                },
+                {
+                    "name": "Golflands Hostel Image Three",
+                    "url": "../assets/hostel-image/hostel-five/h3.png",
+                    "alt": "Golflands hostel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"hostel",
+            "region": "Christchurch",
+            "slug": "epsom-hostel",
+            "name": "Epsom Hostel",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Epsom Hostel Image One",
+                    "url": "../assets/hostel-image/hostel-six/h1.jpg",
+                    "alt": "Epsom hostel image one"
+                },
+                {
+                    "name": "Epsom Hostel Image Two",
+                    "url": "../assets/hostel-image/hostel-six/h2.jpg",
+                    "alt": "Epsom hostel image two"
+                },
+                {
+                    "name": "Epsom Hostel Image Three",
+                    "url": "../assets/hostel-image/hostel-six/h3.jpg",
+                    "alt": "Epsom hostel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"motel",
+            "region": "Auckland",
+            "slug": "devonport-motel",
+            "name": "Devonport Motel",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Devonport Motel Image One",
+                    "url": "../assets/motel-image/motel-one/m1.jpg",
+                    "alt": "Devonport motel image one"
+                },
+                {
+                    "name": "Devonport Motel Image Two",
+                    "url": "../assets/motel-image/motel-one/m2.jpg",
+                    "alt": "Devonport motel image two"
+                },
+                {
+                    "name": "Devonport Motel Image Three",
+                    "url": "../assets/motel-image/motel-one/m3.jpg",
+                    "alt": "Devonport motel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"motel",
+            "region": "Auckland",
+            "slug": "aorangi-motel",
+            "name": "Aorangi Motel",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Aorangi Motel Image One",
+                    "url": "../assets/motel-image/motel-two/m1.jpg",
+                    "alt": "Aorangi motel image one"
+                },
+                {
+                    "name": "Aorangi Motel Image Two",
+                    "url": "../assets/motel-image/motel-two/m2.jpg",
+                    "alt": "Aorangi motel image two"
+                },
+                {
+                    "name": "Aorangi Motel Image Three",
+                    "url": "../assets/motel-image/motel-two/m3.jpg",
+                    "alt": "Aorangi motel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"motel",
+            "region": "Auckland",
+            "slug": "glenorchy-motel",
+            "name": "Glenorchy Motel",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Glenorchy Motel Image One",
+                    "url": "../assets/motel-image/motel-three/m1.jpg",
+                    "alt": "Glenorchy motel image one"
+                },
+                {
+                    "name": "Glenorchy Motel Image Two",
+                    "url": "../assets/motel-image/motel-three/m2.jpg",
+                    "alt": "Glenorchy motel image two"
+                },
+                {
+                    "name": "Glenorchy Motel Image Three",
+                    "url": "../assets/motel-image/motel-three/m3.jpg",
+                    "alt": "Glenorchy motel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"motel",
+            "region": "Dunedin",
+            "slug": "middlemore-motel",
+            "name": "Middlemore Motel",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Middlemore Motel Image One",
+                    "url": "../assets/motel-image/motel-four/m1.jpg",
+                    "alt": "Middlemore motel image one"
+                },
+                {
+                    "name": "Middlemore Motel Image Two",
+                    "url": "../assets/motel-image/motel-four/m2.jpg",
+                    "alt": "Middlemore motel image two"
+                },
+                {
+                    "name": "Middlemore Motel Image Three",
+                    "url": "../assets/motel-image/motel-four/m3.jpg",
+                    "alt": "Middlemore motel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"motel",
+            "region": "Wellington",
+            "slug": "rainforest-motel",
+            "name": "Rainforest Motel",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Rainforest Motel Image One",
+                    "url": "../assets/motel-image/motel-five/m1.jpg",
+                    "alt": "Rainforest motel image one"
+                },
+                {
+                    "name": "Rainforest Motel Image Two",
+                    "url": "../assets/motel-image/motel-five/m2.jpg",
+                    "alt": "Rainforest motel image two"
+                },
+                {
+                    "name": "Rainforest Motel Image Three",
+                    "url": "../assets/motel-image/motel-five/m3.jpg",
+                    "alt": "Rainforest motel image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"motel",
+            "region": "Christchurch",
+            "slug": "greenlane-manor",
+            "name": "Greenlane Manor",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNights": 10,
+            "images": 
+            [
+                {
+                    "name": "Greenlane Manor Image One",
+                    "url": "../assets/motel-image/motel-six/m1.jpg",
+                    "alt": "Greenlane manor image one"
+                },
+                {
+                    "name": "Greenlane Manor Image Two",
+                    "url": "../assets/motel-image/motel-six/m2.jpg",
+                    "alt": "Greenlane manor image two"
+                },
+                {
+                    "name": "Greenlane Manor Image Three",
+                    "url": "../assets/motel-image/motel-six/m3.jpg",
+                    "alt": "Greenlane manor image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"house",
+            "region": "Auckland",
+            "slug": "westmere-bungalow",
+            "name": "Westmere Bungalow",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNights": 15,
+            "images": 
+            [
+                {
+                    "name": "Westmere Bungalow Image One",
+                    "url": "../assets/house-image/house-one/hu1.jpg",
+                    "alt": "Westmere bungalow image one"
+                },
+                {
+                    "name": "Westmere Bungalow Image Two",
+                    "url": "../assets/house-image/house-one/hu2.jpg",
+                    "alt": "Westmere bungalow image two"
+                },
+                {
+                    "name": "Westmere Bungalow Image Three",
+                    "url": "../assets/house-image/house-one/hu3.jpg",
+                    "alt": "Westmere bungalow image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"house",
+            "region": "Auckland",
+            "slug": "tahuna-house",
+            "name": "Tahuna House",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNights": 15,
+            "images": 
+            [
+                {
+                    "name": "Tahuna House Image One",
+                    "url": "../assets/house-image/house-two/hu1.jpg",
+                    "alt": "Tahuna house image one"
+                },
+                {
+                    "name": "Tahuna House Image Two",
+                    "url": "../assets/house-image/house-two/hu2.jpg",
+                    "alt": "Tahuna house image two"
+                },
+                {
+                    "name": "Tahuna House Image Three",
+                    "url": "../assets/house-image/house-two/hu3.jpg",
+                    "alt": "Tahuna house image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"house",
+            "region": "Auckland",
+            "slug": "harbour-retreat",
+            "name": "Harbour Retreat",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNights": 15,
+            "images": 
+            [
+                {
+                    "name": "Harbour Retreat Image One",
+                    "url": "../assets/house-image/house-three/hu1.jpg",
+                    "alt": "Harbour retreat image one"
+                },
+                {
+                    "name": "Harbour Retreat Image Two",
+                    "url": "../assets/house-image/house-three/hu2.jpg",
+                    "alt": "Harbour retreat image two"
+                },
+                {
+                    "name": "Harbour Retreat Image Three",
+                    "url": "../assets/house-image/house-three/hu3.jpg",
+                    "alt": "Harbour retreat image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"house",
+            "region": "Dunedin",
+            "slug": "esplanade-place",
+            "name": "Esplanade Place",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNights": 15,
+            "images": 
+            [
+                {
+                    "name": "Esplanade Place Image One",
+                    "url": "../assets/house-image/house-four/hu1.jpg",
+                    "alt": "Esplanade place image one"
+                },
+                {
+                    "name": "WEsplanade Place Image Two",
+                    "url": "../assets/house-image/house-four/hu2.jpg",
+                    "alt": "Esplanade place image two"
+                },
+                {
+                    "name": "Esplanade Place Image Three",
+                    "url": "../assets/house-image/house-four/hu3.jpg",
+                    "alt": "Esplanade place image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"house",
+            "region": "Wellington",
+            "slug": "pristine-vista",
+            "name": "Pristine Vista",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNights": 15,
+            "images": 
+            [
+                {
+                    "name": "Pristine Vista Image One",
+                    "url": "../assets/house-image/house-five/hu1.jpg",
+                    "alt": "Pristine vista image one"
+                },
+                {
+                    "name": "Pristine Vista Image Two",
+                    "url": "../assets/house-image/house-five/hu2.jpg",
+                    "alt": "Pristine vista image two"
+                },
+                {
+                    "name": "Pristine Vista Image Three",
+                    "url": "../assets/house-image/house-five/hu3.jpg",
+                    "alt": "Pristine vista image three"
+                }
+            
+            ]
+        },
+        {
+            "type":"house",
+            "region": "Christchurch",
+            "slug": "dunalistair-house",
+            "name": "Dunalistair House",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNights": 15,
+            "images": 
+            [
+                {
+                    "name": "Dunalistair House Image One",
+                    "url": "../assets/house-image/house-six/hu1.jpg",
+                    "alt": "Dunalistair house image one"
+                },
+                {
+                    "name": "Dunalistair House Image Two",
+                    "url": "../assets/house-image/house-six/hu2.jpg",
+                    "alt": "Dunalistair house image two"
+                },
+                {
+                    "name": "Dunalistair HouseImage Three",
+                    "url": "../assets/house-image/house-six/hu3.jpg",
+                    "alt": "Dunalistair house image three"
+                }
+            
+            ]
+        }
+    ]
+}

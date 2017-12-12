@@ -1,0 +1,34 @@
+{
+    "accommodationMeals":
+    [
+        {
+            "id": "1",
+            "slug": "hotel-meals",
+            "accommodation": "hotel",
+            "breakfast": "Breakfast buffet start from 7:30am to 10:30am",
+            "dinner":"Dinner buffet start from 4:30pm to 9:00pm"
+        },
+        {
+            "id": "2",
+            "slug": "hostel-meals",
+            "accommodation": "hostel",
+            "breakfast": "No Breakfast",
+            "dinner":"No Dinner"
+        },
+        {
+            "id": "3",
+            "slug": "motel-meals",
+            "accommodation": "motel",
+            "breakfast": "No Breakfast",
+            "dinner":"No Dinner"            
+        },
+        {
+            "id": "4",
+            "slug": "house-meals",
+            "accommodation": "house",
+            "breakfast": "For our breakfast: we have 1 chicken sandwich, 1 beef sandwich, french fries, 1 caesar salad, orange juice or apple juice and fruit of the day.",
+            "dinner":"For our dinner: we have 1 chicken salad, 1 carrot soup, capocollo dish or bresaola dish, a bowl of home made chips with sauce, orange juice or apple juice and fruit of the day."
+        }
+
+    ]
+}

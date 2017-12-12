@@ -1,0 +1,50 @@
+{
+    "typesOfAccommodation":
+    [
+        {
+            "id": "1",
+            "slug": "hotel",
+            "type": "Hotel",
+            "minOfPeople": 1,
+            "maxOfPeople": 2,
+            "pricePerNight": 75,
+            "minOfNights": 1,
+            "maxOfNight": 5
+            
+        },
+        {
+            "id": "2",
+            "slug": "hostel",
+            "type": "Hostel",
+            "minOfPeople": 1,
+            "maxOfPeople": 6,
+            "pricePerNight": 35,
+            "minOfNights": 1,
+            "maxOfNight": 10
+            
+        },
+        {
+            "id": "3",
+            "slug": "motel",
+            "type": "Motel",
+            "minOfPeople": 2,
+            "maxOfPeople": 4,
+            "pricePerNight": 55,
+            "minOfNights": 3,
+            "maxOfNight": 10
+            
+        },
+        {
+            "id": "4",
+            "slug": "house",
+            "type": "House",
+            "minOfPeople": 1,
+            "maxOfPeople": 4,
+            "pricePerNight": 95,
+            "minOfNights": 2,
+            "maxOfNight": 15
+            
+        }
+
+    ]
+}

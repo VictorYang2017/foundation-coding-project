@@ -1,0 +1,763 @@
+/*CSS Normalize*/
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+/*Base Styles*/
+*{
+    box-sizing: border-box;
+    color:#e5e4e4;
+    margin:0;
+    padding:0;
+    font-family: 'Bitter', serif;
+}
+body{
+    width:100%;
+    height:100vh;   
+}
+#screen-one{
+    width:100%;
+    height:100%;
+    background-image: url("../assets/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.screen-one-container{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+h1, h2, h3, h4, h5{
+    color:#e5e4e4;
+    font-family: 'Bitter', serif; 
+}
+.main-container{
+    width:85%;
+    margin:auto;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Branding/header*/
+header{
+    background-color:rgba(25, 25, 25, 0.9);
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+
+.header-container--branding-area{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.header-container--help-button{
+    border:5px solid #844B3F;
+    padding:17px;
+    margin-right:20px;
+    width:10vw;
+    text-align: center;
+    cursor:pointer;
+    background-color:#754239;
+
+
+}
+
+.header-container--help-button h5{
+    font-size:1.3vw
+}
+
+img{
+    width:5vw;
+    padding:5px;
+}
+.logo-text{
+   font-family: 'Satisfy', cursive;
+   font-size: 1.2vw;
+}
+
+
+
+
+
+/*Input Section*/
+.input-section{
+    background-color:rgba(25, 25, 25, 0.9);
+    padding-top:23px;
+}
+.input-section--heading{
+    border-bottom:5px solid #fff;
+    padding-bottom:23px;
+}
+.input-section--heading h3{
+    text-align: center;
+    font-size:1.9vw;
+}
+.input-section--inputs{
+    display:flex;
+    /*justify-content: space-around;*/
+}
+.left-side{
+    width:60%;
+    padding:40px 10px 20px 80px;
+
+}
+.left-side p{
+    font-size: 1.3vw;
+    padding-bottom:17px;
+}
+.city-region{
+    width:80%;
+    height:50px;
+    color:#333233;
+    font-size: 1.2vw;
+}
+.left-side--type-of-accommodations{
+    padding-top:30px;
+}
+.type-of-accommodations{
+    width:80%;
+    height:50px;
+}
+.right-side{
+    border-left:5px solid #fff;
+    padding-top:20px;
+    width:40%;
+}
+.right-side p{
+    padding:20px 0 10px 0;
+    font-size:1.1vw;
+}
+.right-side-input{
+    padding-left:80px;
+}
+select{
+    color: #333233;
+    font-size:1.3vw;
+}
+option{
+    color: #333233;
+}
+.right-side select{
+    width:85%;
+    height:35px;
+}
+.right-side--how-many-nights{
+    margin-bottom:40px;
+}
+.right-side--search-button{
+    text-align: center;
+    border: 5px solid #844B3F;
+    background-color:#754239;
+    margin:0px 40px 0 0;
+    width:100%;
+    cursor: pointer;
+}
+.right-side--search-button p {
+    font-size:2.2vw;
+    cursor: pointer;
+}
+.error-msg{
+    color:#bf0000;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-size: 1vw;
+    padding-top:10px;
+    letter-spacing: 0.3px;
+    display:none;
+
+}
+
+
+/*Screen One*/
+.top-section{
+    margin:40px 0 50px 0;
+    display:flex;
+    font-weight: bold;
+}
+.top-section--back-button{
+    margin-right:15px;
+    font-size:1.8vw;
+    cursor:pointer;
+    color:#2D334C;
+}
+.top-section--back-text{
+    font-size:1.4vw;
+    padding-top:7px;
+    cursor:pointer;
+    color:#2D334C;
+    font-family: 'Bitter', serif;
+}
+.brief-information{
+    text-align: center;
+}
+.brief-information h1{
+    text-align: center;
+    font-weight:bold;
+    margin:70px 0 20px 0;
+    color:#e5e4e4;
+}
+.brief-information p{
+    line-height: 24px;
+    color:#e5e4e4;
+}
+
+.bottom-section{
+    margin-top:60px;
+}
+
+.output-data-section{
+    background-color:#e5e4e4;
+
+}
+.output-data-section--container{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.individual-data{
+    background-color:#754239;
+    border:3px solid #474D66;
+    margin:50px 20px 50px 20px;
+    width:20vw;
+    height:180px;
+    display:flex;
+    cursor: pointer;
+
+}
+.individual-data--info{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+.individual-data h6{
+    color:#e5e4e4;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: normal;
+    font-family: 'Bitter', serif;
+}
+.individual-data p{
+    font-size: 0.7vw;
+    padding:0 0 42px 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.individual-data--heading{
+    border-bottom:4px solid #9D6459;
+    padding:5px 0;
+}
+.individual-data--price{
+    border-top:4px solid #9D6459;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.individual-data--price h6{
+    font-family: 'Lato', sans-serif;
+}
+.individual-data--image{
+    background-image: url("../assets/hotel-image/hotel-two/ho1.jpg");
+    width:68%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Screen two*/
+#screen-two{
+    background-color:#e5e4e4;
+    width:100%;
+}
+.screen-two-main-container .top-section{
+    margin-left:138px;
+}
+.bottom-section--accommodation-images{
+    height:520px;
+    display:flex;
+    width:100%;
+}
+.image-one{
+    height:100%;
+    width:100%;
+    background-image:url("../assets/placeholder-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-two-and-three{
+    width:100%;
+}
+.image-two{
+    height:50%;
+    width:100%;
+    background-image:url("../assets/placeholder-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-three{
+    height:50%;
+    width:100%;
+    background-image:url("../assets/placeholder-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom-section--accommodation-info{
+    height:180px;
+    width:100%;
+    display:flex;
+    border-bottom:5px solid #cdcccc;
+}
+.accommodation-info{
+    width:25%;
+    background-color:#754239;
+}
+.second-accommodation-info{
+    border-left: 5px solid #cdcccc;
+    border-right: 5px solid #cdcccc;
+}
+.third-accommodation-info{
+    border-right: 5px solid #cdcccc;
+}
+.title{
+    padding:15px;
+    text-align: center;
+    font-size: 1.2vw;
+    background-color:#2D334C;
+}
+.info p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+    height:131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-many-nights--minimum{
+    padding-top:37px;
+    display: flex;
+    justify-content: center;
+    font-size:1.3vw;
+    font-family: 'Lato', sans-serif;
+}
+.how-many-nights--maximum{
+    font-size:1.3vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+.accommodation-meals-infomation{
+    width:80%;
+    margin:auto;
+    padding:40px 50px 0 50px;
+}
+.accommodation-meals-infomation--heading-and-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.accommodation-meals-infomation--heading-and-price p{
+    font-size:1.9vw;
+    font-weight: bold;
+    color:#333233;
+    font-family: 'Bitter', serif;
+}
+.heading p{
+    text-decoration: underline;
+}
+.price p{
+     font-family: 'Bitter', serif;
+}
+.accommodation-information p{
+    color:#333233;
+    font-size:1vw;
+    width:75%;
+    padding-top:40px;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+}
+
+.meals p{
+    color: #333233;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.meals--heading p{
+    margin-top:40px;
+    font-size: 1.9vw;
+    text-decoration: underline;
+    font-family: 'Bitter', serif;
+}
+
+.meals-breakfast{
+    padding:20px 0 30px 0;
+}
+.meals-dinner{
+    padding-bottom:50px;
+}
+.meal-detail p{
+    font-weight: normal;
+}
+
+
+
+
+/*Low Resoulation*/
+.disable-the-site{
+    display:none;
+}
+
+
+/*Tablets view*/
+/*Screen Two*/
+@media screen and (max-width:1200px){
+    .top-section--back-button{
+        font-size: 2.5vw;
+    }
+    .top-section--back-text{
+        font-size: 2.5vw;
+        padding-top: 3px;
+    }
+    header{
+        height:80px;
+    }
+    .header-container--branding-area {
+        padding-top: 11px;
+    }
+    .header-container--help-button{
+        padding:17px;
+        width:15%;
+        padding-top:10px;
+    }
+    .header-container--help-button h5{
+        font-size:1.5vw;
+        padding-top:10px;
+    }
+    .brief-information h1 {
+        font-size:3.2vw;
+    }
+    .brief-information p {
+        font-size:1.5vw;
+    }
+    .left-side{
+        padding-left:50px;
+    }
+    .left-side p{
+        font-size:1.8vw;
+    }
+    .right-side-input {
+        padding-left:50px;
+    }
+    .right-side p{
+        font-size:1.5vw;
+    }
+    .right-side--search-button p{
+        font-size:3vw;
+    }
+    .input-section--heading h3 {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width:900px){
+    .title {
+        font-size: 1.7vw;
+    }
+    .top-section--back-button{
+        font-size: 2.8vw;
+    }
+    .top-section--back-text{
+        font-size: 2.8vw;
+        padding-top: 3px;
+    }
+    .accommodation-meals-infomation--heading-and-price p{
+        font-size:2.5vw;
+    }
+    .accommodation-information p{
+        font-size:1.3vw;
+    }
+    .meals--heading p{
+        font-size:2.5vw;
+    }
+    .header-container--help-button{
+        padding:17px;
+        width:20%;
+        padding-top:10px;
+    }
+    .header-container--help-button h5{
+        font-size:2vw;
+        padding-top:10px;
+    }
+    .brief-information p{
+        line-height:15px;
+    }
+    .left-side p{
+        font-size:2.2vw;
+    }
+    .right-side p{
+        font-size:1.8vw;
+    }
+    .right-side--search-button p{
+        font-size:3vw;
+    }
+}
+
+@media screen and (max-width:720px){
+    .top-section--back-button{
+        font-size: 3.5vw;
+    }
+    .top-section--back-text{
+        font-size: 3.5vw;
+        padding-top: 3px;
+    }
+    img{
+        width:8vw;
+    }
+    .bottom-section--accommodation-info{
+        display:block;
+        border:none;
+    }
+    .accommodation-info{
+        width:100%;
+        border:none;
+    }
+    .title {
+        font-size: 2.5vw;
+    }
+    .info{
+        height:30px;
+    }
+    .accommodation-meals-infomation--heading-and-price{
+        margin-top:160px;
+        display:block;
+    }
+    
+    .accommodation-meals-infomation{
+        margin-left:120px;
+    }
+    .accommodation-meals-infomation--heading-and-price p{
+        font-size:3vw;
+    }
+    .accommodation-information p{
+        font-size:1.8vw;
+        padding-top:20px;
+    }
+    .second-paragraph{
+        display: none;
+    }
+    .meals--heading p{
+        font-size:3vw;
+    }
+    .header-container--help-button{
+        padding:15px;
+        width:30%;
+    }
+    .header-container--help-button h5{
+        font-size: 2.7vw;
+        padding-top:0;
+    }
+    .input-section--inputs {
+        display: block;
+    }
+    .input-section--heading h3{
+        font-size:3.2vw;
+    }
+    .left-side{
+        width:100%;
+        padding-right:0;
+    }
+    .left-side p{
+        font-size:2.6vw;
+    }
+    .right-side{
+        width:100%;
+        border:none;
+    }
+    .right-side p{
+        font-size:2.2vw;
+    }
+    .right-side--search-button p{
+        font-size: 4vw;
+    }
+    .city-region {
+        width: 85%;
+    }
+    .type-of-accommodations {
+        width: 85%;
+    }
+    .brief-information h1{
+        font-size:3.1vw;
+    }
+    .brief-information p{
+        font-size:1.6vw;
+    }
+    
+
+}
+
+@media screen and (max-width:650px){
+    .top-section--back-button{
+        font-size: 3.8vw;
+    }
+    .top-section--back-text{
+        font-size: 3.8vw;
+        padding-top: 3px;
+    }
+    .bottom-section--accommodation-info{
+        display: block;
+        border:none;
+    }
+    .accommodation-info{
+        width:100%;
+        border:none;
+    }
+    .title {
+        font-size: 2.2vw;
+    }
+    .info{
+        height:30px;
+    }
+    .accommodation-meals-infomation{
+        margin-left:120px;
+    }
+    .accommodation-meals-infomation--heading-and-price{
+        margin-top:120px;
+        display:block;
+    }
+    .accommodation-meals-infomation--heading-and-price p{
+        font-size:3vw;
+    }
+    .accommodation-information p{
+        font-size:1.8vw;
+        padding-top:20px;
+    }
+    .second-paragraph{
+        display: none;
+    }
+    .meals--heading p{
+        font-size:3vw;
+    }
+    img{
+        width:10vw;
+    }
+}
+
+@media screen and (max-width:550px){
+    .top-section--back-button{
+        font-size: 4.5vw;
+    }
+    .top-section--back-text{
+        font-size: 4.5vw;
+        padding-top: 3px;
+    }
+    .top-section{
+        margin-bottom:20px;
+    }
+    .brief-information h1{
+        margin-top:30px;
+    }
+    .title {
+        font-size: 2.6vw;
+    }
+    .accommodation-meals-infomation{
+        margin-left:100px;
+    }
+    .accommodation-meals-infomation--heading-and-price p{
+        font-size:3.5vw;
+    }
+    .accommodation-information p{
+        font-size:2.1vw;
+        padding-top:20px;
+    }
+    .left-side{
+        padding-bottom:0;
+    }
+    .left-side--type-of-accommodations{
+        padding-top:0;
+    }
+    .bottom-section{
+        margin-top:30px;
+    }
+    .meals--heading p{
+        font-size:3.5vw;
+    }
+    img{
+        width:12vw;
+    }
+
+}
+
+@media screen and (max-width:520px){
+    .disable-the-site{
+        width:100%;
+        height:100vh;
+        display:block;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        padding:0 10px 0 10px;
+    }
+    .disable-the-site h1{
+        color:#333233;
+    }
+    #screen-one{
+        display:none;
+    }
+    #screen-two{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Screen display*/
+#screen-two{
+    display:none;
+}
